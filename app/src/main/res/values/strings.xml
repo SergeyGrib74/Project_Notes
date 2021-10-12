@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">MyNotePro</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+
+    <string name="menu_note">Заметки</string>
+    <string name="menu_todo">Напоманиния</string>
+    <string name="menu_calendar">Календарь</string>
+    <string name="menu_archive">Архив</string>
+    <string name="menu_bin">Корзина</string>
+    <string name="menu_setting">Настройки</string>
+</resources>

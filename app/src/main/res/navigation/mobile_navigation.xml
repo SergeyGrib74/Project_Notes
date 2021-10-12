@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_note">
+
+    <fragment
+        android:id="@+id/nav_note"
+        android:name="com.example.mynotepro.ui.calendar.HomeFragment"
+        android:label="@string/menu_note"
+        tools:layout="@layout/fragment_calendar" />
+
+    <fragment
+        android:id="@+id/nav_todo"
+        android:name="com.example.mynotepro.ui.note.GalleryFragment"
+        android:label="@string/menu_todo"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_calendar"
+        android:name="com.example.mynotepro.ui.todo.SlideshowFragment"
+        android:label="@string/menu_calendar"
+        tools:layout="@layout/fragment_slideshow" />
+
+    <fragment
+        android:id="@+id/nav_archive"
+        android:name="com.example.mynotepro.ui.todo.SlideshowFragment"
+        android:label="@string/menu_calendar"
+        tools:layout="@layout/fragment_slideshow" />
+
+    <fragment
+        android:id="@+id/nav_bin"
+        android:name="com.example.mynotepro.ui.todo.SlideshowFragment"
+        android:label="@string/menu_calendar"
+        tools:layout="@layout/fragment_slideshow" />
+
+    <fragment
+        android:id="@+id/nav_setting"
+        android:name="com.example.mynotepro.ui.todo.SlideshowFragment"
+        android:label="@string/menu_calendar"
+        tools:layout="@layout/fragment_slideshow" />
+</navigation>
